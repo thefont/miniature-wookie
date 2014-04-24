@@ -1,3 +1,24 @@
+#addRing {
+    background-color: lightgreen;
+}
+
+.km-ios7 .km-view .km-content .km-list > li {
+    background-color: rgb(178, 178, 178);
+}
+.km-android .km-view .km-content .km-list > li {
+    background-color: rgb(178, 178, 178);
+}
+.km-blackberry .km-view .km-content .km-list > li {
+    background-color: rgb(178, 178, 178);
+}
+.km-wp .km-view .km-content .km-list > li {
+    background-color: rgb(178, 178, 178);
+}
+.km-flat .km-view .km-content .km-list > li {
+    background-color: rgb(178, 178, 178);
+}
+
+
 /* IMAGES */
 .welcome-image {
     background-image: url(../styles/images/appbuilder.png);
@@ -8,7 +29,7 @@
     margin: 0px auto;
 }
 .logo-image {
-    background-image: url(../styles/images/logo.png);
+    background-image: url(../styles/images/add.png);
     background-repeat: no-repeat;
     width: 319px;
     height: 60px;

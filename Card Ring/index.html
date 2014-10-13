@@ -16,21 +16,20 @@
 <body>
     <div id="SplitView1" data-role="splitview">
         <div data-role="pane">
-            <div id="View1" data-role="view">
-                <div id="rings" data-role="view"> 
-	               <ul id="ringsList" data-role="listview" data-style="inset">
-            	       <li id="addRing">Add Ring</li>
-        	           <li>Worry</li>
-    	           </ul>
-	           </div>
+            <div id="rings" data-role="view"> 
+                <ul id="ringsList" data-role="listview">
+                    <li id="addRing">Add Ring</li>
+                    <li>Worry</li>
+                </ul>
             </div>
         </div>
         <div data-role="pane">
-            <div id="View2" data-role="view" data-stretch="true">
-                <div data-role="scrollview" 
+            <div data-role="view" data-stretch="true">
+                <div data-role="scrollview"
                      data-source="app.worryDS"
-                     data-content-height="100%"
-                     data-template="scrollview-binding-template">
+                     data-content-height="auto"
+                     data-template="scrollview-binding-template"
+                     data-enable-pager="false">
                 </div>
             </div>
        </div>
